@@ -1,23 +1,26 @@
 ICA-Network - Task ICAx00
-----------------------------------------------------------------
+--------------------------------------------------------------------------------
+Bonjour agent,
 
-----------------------------------------------------------------
-Sur le bureau, ouvrez un terminal avec Ctrl + Alt + T,
-et Ctrl + Alt + I pour ouvrir le navigateur internet.
+Avant d'être officiellement intégré à l'Agence, nous devons nous assurer que tu
+as ce qu'il faut pour devenir un agent. Pour cela, nous avons besoin que tu
+réalises une tâche assez simple, celle de trouver le fichier "procedure.ica".
+--------------------------------------------------------------------------------
+Sur le bureau, ouvrez un terminal avec Ctrl + Alt + T, et Ctrl + Alt + I pour
+ouvrir le navigateur internet.
 
-Renseignez-vous sur les commandes de la dernière section à la
-ligne 21.
-
-Via le terminal, allez dans le dossier Desktop en tapant
-"cd Desktop", puis débrouillez-vous pour afficher les dossiers
-et/ou fichiers présents dans le répertoire.
+Via le terminal, allez dans le dossier Desktop en tapant "cd Desktop", puis
+débrouillez-vous pour afficher les dossiers et/ou fichiers présents dans le
+répertoire.
 
 La suite de ces explications se trouve dans un fichier nommé
-"rendu.txt".
-----------------------------------------------------------------
-Ressources :
-rendu.txt
-----------------------------------------------------------------
-man, cd, ls, cat
+"procedure.ica", qui est quelque part dans un dossier.
 
-Dans un terminal, Ctrl + C arrête l'éxecution d'une commande
+Note : Dans un terminal, Ctrl + C arrête l'éxecution d'une commande.
+--------------------------------------------------------------------------------
+Ressources :
+ICAx00
+↳ id.ica
+↳ procedure.ica
+--------------------------------------------------------------------------------
+man, cd, ls, cat
