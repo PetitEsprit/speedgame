@@ -1,0 +1,3 @@
+Avant d'exporter la machine virtuelle:
+-Vérifier que les fichiers sont à jour
+-Supprimer l'historique de pcmanfm, de Geany et du terminal ($ history -cw)
