@@ -1,0 +1,15 @@
+Bash :
+	- navigation répertoire (cd, ...)
+	- creation fichier, dossier
+	- gestion de permission
+	- redirection et pipe
+	- qq commandes: man, mv, cp, cat, ls, grep, ...
+
+Language C:
+	- écriture terminal, ecriture fichier
+	- construction de library ft(éventuellement)
+
+Exo:
+	- trouver et se rendre au répertoire de travail
+	- affichage de l'alphabet en utilisant putchar, la seule fonction homologué
+	par l'agence
