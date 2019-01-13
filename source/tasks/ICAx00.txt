@@ -16,7 +16,7 @@ répertoire.
 La suite de ces explications se trouve dans un fichier nommé
 "procedure.ica", qui est quelque part dans un dossier.
 
-Note : Dans un terminal, Ctrl + C arrête l'éxecution d'une commande.
+Note : Dans un terminal, Ctrl + C arrête l'exécution d'une commande.
 --------------------------------------------------------------------------------
 Ressources :
 ICAx00
