@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+	task01
+--------------------------------------------------------------------------------
+Fonctions autorisées:
+
+write
+--------------------------------------------------------------------------------
+Instructions:
+
+Fonction:
+	void	ft_putchar(char c)
+Description:
+	affiche le charactère c passé en paramètre sur la sortie standard
+Compilation:
+	gcc -Wall -Werror -Wextra -c ft_putchar.c -o ft_putchar.o
+--------------------------------------------------------------------------------
+Ressources :
+
+.
+↳ ft_putchar.c
+↳ task
+--------------------------------------------------------------------------------

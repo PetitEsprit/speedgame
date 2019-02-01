@@ -1,23 +1,22 @@
 --------------------------------------------------------------------------------
-	task00
+	task02
 --------------------------------------------------------------------------------
-Commandes autorisées:
+Fonctions autorisées:
 
-cat, echo, ls, man, mkdir, touch
+ft_putstr
 --------------------------------------------------------------------------------
 Instructions:
 
-Retrouver le fichier "winload.efi" à partir du répertoire "C:", puis écrire son
-chemin dans le fichier "path".
+Fonction:
+	void	ft_putstr(char *s)
+Description:
+	affiche la chaîne de charactère s passée en paramètre sur la sortie standard
+Compilation:
+	gcc -Wall -Werror -Wextra -c ft_putstr.c 01/ft_putchar.o -o ft_putstr.o
 --------------------------------------------------------------------------------
 Ressources :
 
 .
-↳ C:
-↳ task.txt
---------------------------------------------------------------------------------
-Rendu:
-
-rendu
-↳ path.txt
+↳ ft_putstr.c
+↳ task
 --------------------------------------------------------------------------------
