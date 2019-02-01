@@ -1,5 +1,0 @@
-Avant d'exporter la machine virtuelle:
--Vérifier que les fichiers sont à jour
--Virer l'heure pour être hardcore
--Virer le bouton menu (Délire SM ?)
--Supprimer l'historique de Firefox, pcmanfm, de Geany et du terminal ($ history -cw)
