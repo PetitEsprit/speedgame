@@ -14,6 +14,10 @@ Compilation:
 	gcc -Wall -Werror -Wextra 02/ft_putstr.o main.c
 Exécution:
 	./a.out [ARGV 1] [ARGV 2] ... [ARGV n]
+Exemple:
+	./a.out foo bar | cat -e
+	foo$
+	bar$
 --------------------------------------------------------------------------------
 Ressources :
 
