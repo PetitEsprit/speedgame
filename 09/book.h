@@ -1,11 +1,11 @@
 typedef struct s_book Book;
 struct s_book;
 
-/* Create a new Book */
-Book*	new(char *title, char *author, char *genre, short year);
+/* Add a new Book */
+Book*	add(char *title, char *author, char *genre, short year);
 
 /* Delete a Book */
-void	remove(Book *b);
+void	delete(Book *b);
 
-/* Display a Book */
+/* Print a Book */
 void	print(Book *b);

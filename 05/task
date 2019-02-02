@@ -3,21 +3,21 @@
 --------------------------------------------------------------------------------
 Fonctions autorisées:
 
-ft_putstr
+ft_putchar, ft_putstr
 --------------------------------------------------------------------------------
 Instructions:
 
-Inverser les majuscules et les minuscules de la chaine de caractères
-passée en paramètre.
-Afficher le résultat avec ft_putstr.
+Inverser les majuscules et les minuscules de la chaîne de caractères passée en
+paramètre et afficher le résultat.
 
 Compilation:
-	gcc -Wall -Werror -Wextra 05/ft_putstr.o main.c
+	$> gcc -Wall -Werror -Wextra ../ft_putchar.o ../ft_putstr.o main.c
 Exécution:
-	./a.out [ARGV 1]
+	$> ./a.out [ARG 1]
 Exemple:
-	./a.out "Hello!" | cat -e
-	hELLO!$
+	$> ./a.out | cat -e
+	$> ./a.out "cALL HER glAdos" | cat -e
+	Call her GLaDOS$
 --------------------------------------------------------------------------------
 Ressources :
 

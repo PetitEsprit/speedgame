@@ -3,7 +3,7 @@
 --------------------------------------------------------------------------------
 Fonctions autorisées:
 
-free, malloc, printf
+free, malloc, foreach, pop, push, printf
 --------------------------------------------------------------------------------
 Instructions:
 
@@ -11,14 +11,15 @@ Le libraire veut trier ses livres. Pour se faire il a besoin de les empiler dans
 sa base de données, mais étant très occupé, il vous confie cette tâche.
 
 Ecrire les fonctions dans book.c puis modifier le main pour stocker les livres
-dans la pile, dont les les informations sont dans le fichier books.txt.
-Enfin, afficher la pile sur le terminal comme sur l'exemple.
+dans la pile, dont les informations sont dans le fichier books.txt.
+Enfin, afficher la pile sur le terminal.
 
 Compilation:
-	gcc -Wall -Werror -Wextra 08/stack.o book.c
-Exemple (pour un livre):
+	gcc -Wall -Werror -Wextra -c book.c -o book.o
+	gcc -Wall -Werror -Wextra ../08/stack.o book.o main.c
+Exemple:
 	./a.out | cat -e
-	title, author, genre, year$
+	[TITLE], [AUTHOR], [GENRE], [YEAR]$
 --------------------------------------------------------------------------------
 Ressources :
 

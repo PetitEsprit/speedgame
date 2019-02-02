@@ -10,12 +10,12 @@ struct s_book
 	short	year;
 };
 
-Book*	new(char *title, char *author, char *genre, short year)
+Book*	add(char *title, char *author, char *genre, short year)
 {
 	// Your code goes here
 }
 
-void	remove(Book *b)
+void	delete(Book *b)
 {
 	// Your code goes here
 }

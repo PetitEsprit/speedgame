@@ -7,12 +7,12 @@ ft_putstr
 --------------------------------------------------------------------------------
 Instructions:
 
+Afficher la chaîne de charactère s passée en paramètre sur la sortie standard.
+
 Fonction:
 	void	ft_putstr(char *s)
-Description:
-	affiche la chaîne de charactère s passée en paramètre sur la sortie standard
 Compilation:
-	gcc -Wall -Werror -Wextra -c ft_putstr.c 01/ft_putchar.o -o ft_putstr.o
+	$> gcc -Wall -Werror -Wextra -c -I.. ft_putstr.c -o ../ft_putstr.o
 --------------------------------------------------------------------------------
 Ressources :
 

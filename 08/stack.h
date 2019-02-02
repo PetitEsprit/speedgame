@@ -5,10 +5,10 @@ struct s_stack;
 Stack*	push(Stack *s, void *data);
 
 /* Delete the latest data sent to the stack */
-Stack*	pop(Stack *s, void(*freeData)(void *));
+Stack*	pop(Stack *s, void(*f)(void *));
 
 /* Retrieve the latest data sent to the stack */
 void*	peek(Stack *s);
 
-/* Display the stack */
-void	print(Stack *s, void(*printData)(void *));
+/* Apply f function to all data in the stack */
+void	foreach(Stack *s, void(*f)(void *));

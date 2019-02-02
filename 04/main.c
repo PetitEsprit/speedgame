@@ -1,3 +1,5 @@
+void	ft_putchar(char c);
+
 void	ft_putstr(char *s);
 
 int	main(int argc, char **argv)

@@ -3,20 +3,21 @@
 --------------------------------------------------------------------------------
 Fonctions autorisées:
 
-atoi; printf
+atoi, printf
 --------------------------------------------------------------------------------
 Instructions:
 
-Calculer la somme des entiers passés en paramètre.
-Afficher le résultat avec printf.
+Calculer la somme des entiers passés en paramètre et afficher le résultat.
 
 Compilation:
-	gcc -Wall -Werror -Wextra main.c
+	$> gcc -Wall -Werror -Wextra main.c
 Exécution:
-	./a.out "5" "4" "1"
+	$> ./a.out [VALUE 1] ... [VALUE N]
 Exemple:
-	./a.out | cat -e
-	10$
+	$> ./a.out
+	0
+	$> ./a.out 5 4 1 -2
+	8
 --------------------------------------------------------------------------------
 Ressources :
 

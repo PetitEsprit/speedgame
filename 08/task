@@ -3,11 +3,11 @@
 --------------------------------------------------------------------------------
 Fonctions autorisées:
 
-free, malloc, printf
+free, malloc
 --------------------------------------------------------------------------------
 Instructions:
 
-Implémenter une pile avec ses opérations de base, push, pop, peek et print.
+Implémenter une pile avec ses opérations de base, push, pop, peek et foreach.
 
 Compilation:
 	gcc -Wall -Werror -Wextra -c stack.c -o stack.o
