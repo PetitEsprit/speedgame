@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+	task09
+--------------------------------------------------------------------------------
+Fonctions autorisées:
+
+free, malloc, printf
+--------------------------------------------------------------------------------
+Instructions:
+
+Le libraire veut trier ses livres. Pour se faire il a besoin de les empiler dans
+sa base de données, mais étant très occupé, il vous confie cette tâche.
+
+Ecrire les fonctions dans book.c puis modifier le main pour stocker les livres
+dans la pile, dont les les informations sont dans le fichier books.txt.
+Enfin, afficher la pile sur le terminal comme sur l'exemple.
+
+Compilation:
+	gcc -Wall -Werror -Wextra 08/stack.o book.c
+Exemple (pour un livre):
+	./a.out | cat -e
+	title, author, genre, year$
+--------------------------------------------------------------------------------
+Ressources :
+
+.
+↳ book.c
+↳ book.h
+↳ books.txt
+↳ task
+--------------------------------------------------------------------------------
