@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+	task07
+--------------------------------------------------------------------------------
+Fonctions autorisées:
+
+foreach
+printf
+--------------------------------------------------------------------------------
+Instructions:
+
+A l'aide de la fonction foreach, pour chaque case du tableau t, assigner le
+carré de la valeur de la case moins 1.
+A l'aide des fonctions foreach et printf, afficher le résultat.
+
+Compilation:
+	gcc -Wall -Werror -Wextra main.c
+Exécution:
+	./a.out "5" "4" "1"
+Exemple:
+	t[3] = {4,2,3}
+	./a.out | cat -e
+	9$
+	1$
+	4$
+--------------------------------------------------------------------------------
+Ressources :
+
+.
+↳ main.c
+↳ task
+--------------------------------------------------------------------------------

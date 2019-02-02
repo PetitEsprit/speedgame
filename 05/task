@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------
+	task05
+--------------------------------------------------------------------------------
+Fonctions autorisées:
+
+ft_putstr
+--------------------------------------------------------------------------------
+Instructions:
+
+Inverser les majuscules et les minuscules de la chaine de caractères
+passée en paramètre.
+Afficher le résultat avec ft_putstr.
+
+Compilation:
+	gcc -Wall -Werror -Wextra 05/ft_putstr.o main.c
+Exécution:
+	./a.out [ARGV 1]
+Exemple:
+	./a.out "Hello!" | cat -e
+	hELLO!$
+--------------------------------------------------------------------------------
+Ressources :
+
+.
+↳ main.c
+↳ task
+--------------------------------------------------------------------------------
