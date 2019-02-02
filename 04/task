@@ -11,7 +11,7 @@ Modifier le fichier main.c pour qu'il affiche tous les arguments passés en
 paramètre sauf le nom du programme.
 
 Compilation:
-	$> gcc -Wall -Werror -Wextra ../ft_putchar.o ../ft_putstr.o main.c
+	$> gcc -Wall -Werror -Wextra ../01/ft_putchar.o ../02/ft_putstr.o main.c
 Exécution:
 	$> ./a.out [ARG 1] [ARG 2] ... [ARG n]
 Exemple:

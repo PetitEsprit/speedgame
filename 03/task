@@ -11,7 +11,7 @@ Modifier le fichier main.c pour qu'il affiche "Hello, World!" suivit d'un retour
 à la ligne. 
 
 Compilation:
-	$> gcc -Wall -Werror -Wextra ../ft_putchar.o ../ft_putstr.o main.c
+	$> gcc -Wall -Werror -Wextra ../01/ft_putchar.o ../02/ft_putstr.o main.c
 Exécution:
 	$> ./a.out
 --------------------------------------------------------------------------------
