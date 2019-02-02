@@ -4,17 +4,13 @@
 
 void foreach(int *t, int size, void(*f)(int))
 {
-	int i;
-	for(i = 0; i<size; i++)
-	{
-		f(t[i]);
-	}
+	// Your code goes here
 }
 
 int	main()
 {
 	int t[10] = {9,2,3,5,7,10,11,0,1,13};
-	// Your code goes here
 	
+	// Your code goes here
 	return 0;
 }
